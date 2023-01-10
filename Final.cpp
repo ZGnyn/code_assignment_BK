@@ -47,7 +47,6 @@ void XuatDanhSach(SinhVien DanhSach[100], int TongSinhVien) {
     cout<<setw(80)<<"-"<<endl;
     cout<<setfill(' ');
     for (int i = 0; i < TongSinhVien; i++){
-        // stt = DanhSach[i].stt;
         cout <<setw(10)<<left<<  DanhSach[i].stt;
         cout <<setw(30)<<left<< DanhSach[i].HoVaTen ;
         cout <<setw(15)<<left<< DanhSach[i].GioiTinh;
@@ -61,7 +60,9 @@ void XuatDanhSach(SinhVien DanhSach[100], int TongSinhVien) {
 bool XoaSinhVien(SinhVien DanhSach[], int TongSinhVien) {
     int stt_xoa;
     bool exist; // Khai báo biến exist để kiểm tra SV có tồn tại hay không 
+    
     cout << "Nhap STT cua Sinh vien bi xoa: "; cin >> stt_xoa;
+    
     // Nếu SV tồn tại
     for (int i = 0; i < TongSinhVien; i++) {
         if (DanhSach[i].stt == stt_xoa) {
@@ -74,6 +75,7 @@ bool XoaSinhVien(SinhVien DanhSach[], int TongSinhVien) {
             return true;
         }
     }
+    
     // Nếu SV không tồn tại
     if (exist == false) { 
         cout << "KHONG TON TAI sinh vien co STT la: " << stt_xoa << endl;
