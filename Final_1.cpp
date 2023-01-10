@@ -77,8 +77,7 @@ bool XoaSinhVien(SinhVien DanhSach[100], int TongSinhVien) {
     if (!exist) {
         cout << "KHONG TON TAI sinh vien co STT la: " << stt_xoa << endl;
         return false;
-    }
-    
+    }  
 }
 
 // Hàm chỉnh sửa SV theo STT trong DanhSach[]
