@@ -4,7 +4,7 @@
 using namespace std;
 
 struct SinhVien {
-    int stt = 0 ; 
+    int stt; 
     char HoVaTen[50];
     char GioiTinh[50];
     char MSSV[50];
@@ -64,12 +64,12 @@ bool XoaSinhVien(SinhVien DanhSach[100], int TongSinhVien) {
     for (int i = 1; i <= TongSinhVien; i++) {
         if (DanhSach[i].stt == stt_xoa) {
             exist = true;
-            DanhSach[i].stt--;  
             for (int j = i; j <= TongSinhVien; j++) {
                 DanhSach[j] = DanhSach[j + 1];
             }
-        cout << "Da xoa sinh vien co STT la: " << stt_xoa << endl;
-        return true;
+            DanhSach[i].stt--;  
+            cout << "Da xoa sinh vien co STT la: " << stt_xoa << endl;
+            return true;
         }
     }
 
@@ -77,7 +77,8 @@ bool XoaSinhVien(SinhVien DanhSach[100], int TongSinhVien) {
     if (!exist) {
         cout << "KHONG TON TAI sinh vien co STT la: " << stt_xoa << endl;
         return false;
-    }  
+    }
+    
 }
 
 // Hàm chỉnh sửa SV theo STT trong DanhSach[]
