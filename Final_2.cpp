@@ -142,6 +142,7 @@ void TimTheoLop(SinhVien DanhSach[100], int TongSinhVien) {
     }
 }
 
+// Hàm sắp xếp sinh viên theo GPA giảm dần
 void GPAgiam(SinhVien DanhSach[], int TongSinhVien)
 {
     SinhVien temp;
