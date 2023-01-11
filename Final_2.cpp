@@ -244,7 +244,7 @@ int main() {
                 break;
 
             case 6:
-                cout <<"SAP XEP";
+                cout <<"\n++++++++++ SAP XEP SINH VIEN THEO GPA ++++++++++" << endl;
                 if (TongSinhVien > 0) {
                     GPAgiam(DanhSach,TongSinhVien);
                     XuatDanhSach(DanhSach,TongSinhVien);
