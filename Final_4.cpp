@@ -224,16 +224,20 @@ void GPAtang(SinhVien DanhSach[], int TongSinhVien)
 void GPAcaonhat(SinhVien DanhSach[], int TongSinhVien)
 {
      int i,dem=0,caonhat;
-     float max=a[1].GPA;
-     for (i=1;i<=n;i++)
-         if (max<a[i].GPA)
-         {
-            max=a[i].GPA;
-            caonhat=i;
+     float max=DanhSach[1].GPA;
+     for (i=1;i<=TongSinhVien;i++) {
+         if (max<DanhSach[i].GPA) {
+            max=DanhSach[i].GPA;
+            caonhat = i;
          }
-     cout<<"Diem GPA cao nhat la: "<<max<<endl;
-     cout<<"sinh vien co diem GPA cao nhat la: ";
-    XuatDanhSach(DanSach,caonhat);
+     }
+        cout<<"Diem GPA cao nhat la: "<<max<<endl;
+        cout <<setw(10)<<left<< DanhSach[caonhat].stt;
+        cout <<setw(30)<<left<< DanhSach[caonhat].HoVaTen ;
+        cout <<setw(15)<<left<< DanhSach[caonhat].GioiTinh;
+        cout <<setw(15)<<left<< DanhSach[caonhat].MSSV ;
+        cout <<setw(15)<<left<< DanhSach[caonhat].Lop;
+        cout <<setw(20)<< DanhSach[caonhat].GPA;
 }
 
 void STTtang(SinhVien DanhSach[], int TongSinhVien)
