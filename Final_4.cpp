@@ -220,6 +220,22 @@ void GPAtang(SinhVien DanhSach[], int TongSinhVien)
     }
 }
 
+
+void GPAcaonhat(SinhVien DanhSach[], int TongSinhVien)
+{
+     int i,dem=0,caonhat;
+     float max=a[1].GPA;
+     for (i=1;i<=n;i++)
+         if (max<a[i].GPA)
+         {
+            max=a[i].GPA;
+            caonhat=i;
+         }
+     cout<<"Diem GPA cao nhat la: "<<max<<endl;
+     cout<<"sinh vien co diem GPA cao nhat la: ";
+    XuatDanhSach(DanSach,caonhat);
+}
+
 void STTtang(SinhVien DanhSach[], int TongSinhVien)
 {
     SinhVien temp;
@@ -255,6 +271,7 @@ int main() {
         cout << "*** 6. Tim sinh vien theo GPA                       ***" << endl;
         cout << "*** 7. Sap xep sinh vien theo GPA giam dan          ***" << endl;
         cout << "*** 8. Sap xep sinh vien theo GPA tang dan          ***" << endl;
+        cout << "*** 9. Hien thi sinh vien GPA cao nhat              ***" << endl;
         cout << "*** 0. Thoat chuong trinh                           ***" << endl;
         cout << "*******************************************************" << endl;
         cout << "Nhap tuy chon cua ban: "; cin >> option; 
@@ -330,6 +347,13 @@ int main() {
                     GPAtang(DanhSach,TongSinhVien);
                     XuatDanhSach(DanhSach,TongSinhVien);
                     STTtang(DanhSach,TongSinhVien);
+                } else {
+                    cout << "KHONG co sinh vien trong danh sach. Moi ban nhap lai";
+                }
+                break;
+            case 9: 
+                if (TongSinhVien > 0) {
+                    GPAcaonhat(DanhSach,TongSinhVien);
                 } else {
                     cout << "KHONG co sinh vien trong danh sach. Moi ban nhap lai";
                 }
