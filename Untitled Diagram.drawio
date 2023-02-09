@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T16:38:52.029Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="2jmZoxIlkEcLQPDuBlnc" version="20.8.19" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-09T17:12:28.575Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="EpPVaDTRTCXllvhD2Cg3" version="20.8.19" type="github">
   <diagram name="Page-1" id="WmZ7SuF_WmqMI9D_oavd">
-    <mxGraphModel dx="2600" dy="2078" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2759" dy="3164" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,7 +14,7 @@
           <mxGeometry x="-60" y="80" width="612" height="480" as="geometry" />
         </mxCell>
         <mxCell id="MsBItRkalFy82XBEUcur-6" value="&lt;b&gt;&lt;br&gt;nginx conf&lt;/b&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="70" y="-530" width="100" height="110" as="geometry" />
+          <mxGeometry x="710" y="-430" width="100" height="110" as="geometry" />
         </mxCell>
         <mxCell id="MsBItRkalFy82XBEUcur-11" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry y="250" width="160" height="70" as="geometry" />
@@ -251,6 +251,72 @@
             <mxPoint x="1430" y="280" as="sourcePoint" />
             <mxPoint x="1430" y="320" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="MsBItRkalFy82XBEUcur-127" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="140" y="-1230" width="1310" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="MsBItRkalFy82XBEUcur-107" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeWidth=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="MsBItRkalFy82XBEUcur-127">
+          <mxGeometry y="30" width="1310" height="930" as="geometry" />
+        </mxCell>
+        <mxCell id="MsBItRkalFy82XBEUcur-103" value="&lt;img src=&quot;https://code.benco.io/icon-collection/azure-icons/Virtual-Networks.svg&quot;&gt;&lt;img src=&quot;https://code.benco.io/icon-collection/azure-icons/Virtual-Networks.svg&quot;&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeWidth=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="MsBItRkalFy82XBEUcur-127">
+          <mxGeometry x="40" y="90" width="1230" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="MsBItRkalFy82XBEUcur-105" value="&lt;b style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Resource Group&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="MsBItRkalFy82XBEUcur-127">
+          <mxGeometry x="77" y="60" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MsBItRkalFy82XBEUcur-108" value="&lt;b&gt;Subscription MPN&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="MsBItRkalFy82XBEUcur-127">
+          <mxGeometry x="50" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MsBItRkalFy82XBEUcur-109" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://code.benco.io/icon-collection/azure-icons/Subscriptions.svg;" vertex="1" parent="MsBItRkalFy82XBEUcur-127">
+          <mxGeometry x="40" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MsBItRkalFy82XBEUcur-110" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://code.benco.io/icon-collection/azure-icons/Resource-Groups.svg;" vertex="1" parent="MsBItRkalFy82XBEUcur-127">
+          <mxGeometry x="60" y="60" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MsBItRkalFy82XBEUcur-111" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://code.benco.io/icon-collection/azure-icons/Container-Registries.svg;" vertex="1" parent="MsBItRkalFy82XBEUcur-127">
+          <mxGeometry x="130" y="130" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MsBItRkalFy82XBEUcur-112" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://code.benco.io/icon-collection/azure-icons/Storage-Accounts.svg;" vertex="1" parent="MsBItRkalFy82XBEUcur-127">
+          <mxGeometry x="270" y="140" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MsBItRkalFy82XBEUcur-113" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/other/SSH_Keys.svg;strokeWidth=1;" vertex="1" parent="MsBItRkalFy82XBEUcur-127">
+          <mxGeometry x="410" y="145" width="68" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MsBItRkalFy82XBEUcur-115" value="&lt;img src=&quot;https://code.benco.io/icon-collection/azure-icons/Virtual-Networks.svg&quot;&gt;&lt;img src=&quot;https://code.benco.io/icon-collection/azure-icons/Virtual-Networks.svg&quot;&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeWidth=1;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="MsBItRkalFy82XBEUcur-127">
+          <mxGeometry x="110" y="240" width="1100" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="MsBItRkalFy82XBEUcur-114" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://code.benco.io/icon-collection/azure-icons/Virtual-Networks.svg;" vertex="1" parent="MsBItRkalFy82XBEUcur-127">
+          <mxGeometry x="165" y="205" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MsBItRkalFy82XBEUcur-116" value="&lt;img src=&quot;https://code.benco.io/icon-collection/azure-icons/Virtual-Networks.svg&quot;&gt;&lt;img src=&quot;https://code.benco.io/icon-collection/azure-icons/Virtual-Networks.svg&quot;&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeWidth=1;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="MsBItRkalFy82XBEUcur-127">
+          <mxGeometry x="310" y="390" width="720" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="MsBItRkalFy82XBEUcur-117" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://code.benco.io/icon-collection/azure-icons/Network-Interfaces.svg;" vertex="1" parent="MsBItRkalFy82XBEUcur-127">
+          <mxGeometry x="610" y="340.97" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="MsBItRkalFy82XBEUcur-118" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://code.benco.io/icon-collection/azure-icons/Network-Security-Groups.svg;" vertex="1" parent="MsBItRkalFy82XBEUcur-127">
+          <mxGeometry x="270" y="770" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MsBItRkalFy82XBEUcur-120" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Virtual_Networks_Classic.svg;strokeWidth=1;" vertex="1" parent="MsBItRkalFy82XBEUcur-127">
+          <mxGeometry x="350" y="360" width="87" height="51.94" as="geometry" />
+        </mxCell>
+        <mxCell id="MsBItRkalFy82XBEUcur-124" value="" style="group" vertex="1" connectable="0" parent="MsBItRkalFy82XBEUcur-127">
+          <mxGeometry x="529" y="519.9999999999998" width="252" height="191.10000000000014" as="geometry" />
+        </mxCell>
+        <mxCell id="MsBItRkalFy82XBEUcur-123" value="&lt;img src=&quot;https://code.benco.io/icon-collection/azure-icons/Virtual-Networks.svg&quot;&gt;&lt;img src=&quot;https://code.benco.io/icon-collection/azure-icons/Virtual-Networks.svg&quot;&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeWidth=1;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="MsBItRkalFy82XBEUcur-124">
+          <mxGeometry x="12" y="21.100000000000136" width="240" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="MsBItRkalFy82XBEUcur-121" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/security/Application_Security_Groups.svg;strokeWidth=1;" vertex="1" parent="MsBItRkalFy82XBEUcur-124">
+          <mxGeometry width="43" height="52.21" as="geometry" />
+        </mxCell>
+        <mxCell id="MsBItRkalFy82XBEUcur-122" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;strokeWidth=1;" vertex="1" parent="MsBItRkalFy82XBEUcur-124">
+          <mxGeometry x="97.5" y="74.10000000000014" width="69" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="MsBItRkalFy82XBEUcur-125" value="&lt;b style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Virtual Network&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="MsBItRkalFy82XBEUcur-127">
+          <mxGeometry x="200" y="217" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MsBItRkalFy82XBEUcur-126" value="&lt;b style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Subnet&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="MsBItRkalFy82XBEUcur-127">
+          <mxGeometry x="350" y="360" width="240" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
